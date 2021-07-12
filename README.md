@@ -5,13 +5,13 @@ Installation Instructions:
 
 1. Install CoreML Tools:
 
-$ python -m pip install --user --upgrade pip
+      $ python -m pip install --user --upgrade pip
 
-$ python -m venv coremltools-venv
+      $ python -m venv coremltools-venv
 
-$ source coremltools-venv/bin/activate
+      $ source coremltools-venv/bin/activate
 
-$ pip install coremltools==5.0b2
+      $ pip install coremltools==5.0b2
 
 
 2. Download the Caffe Model into this repository (It must be in the same folder as the convert.py file):
@@ -20,6 +20,6 @@ https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fs3.amazonaws.c
 
 3. Convert the model to CoreML:
 
-$ python convert.py
+      $ python convert.py
 
 4. Grab yourself a cup of coffee (or caffe) while the model is converted :)
