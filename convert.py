@@ -9,4 +9,4 @@ image_input = 'data'
 
 coreml_model = coremltools.converters.caffe.convert(caffe_model, class_labels=model_labels,
                                                     image_input_names=image_input)
-coreml_model.save('Oxford102.mlmodel')
+coreml_model.save('FlowerClassifier.mlmodel')
